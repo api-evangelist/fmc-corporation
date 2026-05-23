@@ -1,0 +1,84 @@
+specification: FinOps Framework
+specificationVersion: '1.0'
+schema: https://www.finops.org/framework/
+provider: FMC Corporation
+providerId: fmc-corporation
+created: '2026-05-23'
+modified: '2026-05-23'
+reconciled: false
+tags:
+  - Agriculture
+  - Crop Protection
+  - Plant Health
+  - FinOps
+  - FOCUS
+description: >-
+  FMC Corporation's commercial surface is delivered as physical crop protection
+  product purchases through ag-retail channels and as service engagements
+  (Arc farm intelligence). There is no metered API invoice. FinOps mapping is
+  structural only — costs flow through product procurement and service contracts,
+  not a metered software-API line item.
+notes: >-
+  No public developer pricing — placeholder only. Costs flow through ag-product
+  purchasing and service contracts rather than a metered API line item.
+sources:
+  - https://www.fmc.com
+  - https://ag.fmc.com
+  - https://investors.fmc.com
+alignedWith:
+  framework: FinOps Foundation Framework
+  frameworkUrl: https://www.finops.org/framework/
+  dataSpec: FOCUS
+  dataSpecVersion: '1.3'
+  dataSpecUrl: https://focus.finops.org/focus-specification/v1-3/
+publisherName: FMC Corporation
+serviceCategory: Agriculture / Crop Protection
+billingModel:
+  pricingCategory: Contract
+  billingFrequency: Per-Invoice
+  billingCurrency: USD
+  chargeCategories:
+    - Purchase
+focusColumns:
+  ServiceName: FMC Corporation
+  ServiceCategory: Agriculture / Crop Protection
+  ProviderName: FMC Corporation
+  PublisherName: FMC Corporation
+  InvoiceIssuerName: FMC Corporation
+  BillingCurrency: USD
+meters:
+  - name: product_purchase
+    description: Crop protection product purchase (insecticide, herbicide, fungicide, biological, seed treatment) — not a metered API unit.
+    unit: package
+    aggregation: count
+    dimensions:
+      - product
+      - region
+      - crop
+  - name: service_engagement
+    description: Precision-ag advisory engagement (Arc farm intelligence) — service contract, not a metered API unit.
+    unit: account
+    aggregation: count
+    dimensions:
+      - customer
+      - region
+principles:
+  - name: Visibility
+    description: >-
+      Track FMC product spend as part of farm-input or agronomy operations spend;
+      FMC does not provide a metered API usage feed.
+  - name: Allocation
+    description: >-
+      Allocate cost to the crop, field, or program that consumes the product
+      or advisory service.
+  - name: Optimization
+    description: >-
+      Optimize spend by aligning product choice and rates with pest pressure,
+      resistance management, and label guidance from FMC technical reps.
+  - name: Accountability
+    description: >-
+      Farm operations / agronomy leadership owns the FMC relationship; finance
+      reconciles channel invoices. Review at season-end agronomy planning.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

@@ -1,0 +1,101 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: FMC Corporation
+providerId: fmc-corporation
+created: '2026-05-23'
+modified: '2026-05-23'
+reconciled: false
+tags:
+  - Agriculture
+  - Crop Protection
+  - Plant Health
+  - Biologicals
+description: >-
+  FMC Corporation is an agricultural sciences company selling crop protection
+  chemistries, biologicals, seed treatments, and precision agriculture services.
+  There is no public developer API plan or self-service pricing surface. Product
+  revenue flows through ag-retailer distribution channels and direct enterprise
+  agreements; precision-ag offerings (Arc farm intelligence) are delivered as
+  service engagements rather than metered APIs.
+notes: >-
+  No public developer pricing — placeholder only. Crop protection products are
+  sold through ag-retail distribution; Arc farm intelligence is bundled with
+  product or service agreements rather than priced as a public API.
+sources:
+  - https://www.fmc.com
+  - https://ag.fmc.com
+  - https://investors.fmc.com
+plans:
+  - id: fmc-product-purchase
+    name: Product Purchase via Ag Retailer
+    type: distribution
+    description: >-
+      Crop protection products (insecticides, herbicides, fungicides, biologicals,
+      seed treatments) purchased through ag-retail distributors and cooperatives.
+    entries:
+      - label: Product purchase
+        name: product_purchase
+        type: transaction
+        metric: unit
+        limit: -1
+        timeFrame: year
+        geo: global
+        unit: 1
+        price: contact local ag retailer
+        userMultiplied: false
+    elements:
+      - name: FMC Insecticides
+      - name: FMC Herbicides
+      - name: FMC Fungicides
+      - name: FMC Biologicals
+      - name: FMC Seed Treatments
+
+  - id: fmc-arc-service
+    name: Arc Farm Intelligence Service
+    type: service
+    description: >-
+      Precision agriculture advisory service delivered to ag retailers and
+      large growers, typically bundled with product programs or as a stand-alone
+      decision-support engagement.
+    entries:
+      - label: Service engagement
+        name: service_engagement
+        type: subscription
+        metric: account
+        limit: -1
+        timeFrame: year
+        geo: regional
+        unit: 1
+        price: contact FMC
+        userMultiplied: false
+    elements:
+      - name: FMC Arc Farm Intelligence
+
+  - id: fmc-enterprise
+    name: Enterprise / Channel Agreement
+    type: enterprise
+    description: >-
+      Negotiated supply, technology-licensing, or co-development agreement with
+      seed companies, ag retailers, distributors, or regional cooperatives.
+    entries:
+      - label: Channel contract
+        name: channel_contract
+        type: subscription
+        metric: contract
+        limit: -1
+        timeFrame: year
+        geo: global
+        unit: 1
+        price: contact FMC commercial team
+        userMultiplied: false
+    elements:
+      - name: FMC Insecticides
+      - name: FMC Herbicides
+      - name: FMC Fungicides
+      - name: FMC Biologicals
+      - name: FMC Pheromone Solutions
+      - name: FMC Seed Treatments
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

@@ -1,0 +1,39 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/RateLimits
+provider: FMC Corporation
+providerId: fmc-corporation
+created: '2026-05-23'
+modified: '2026-05-23'
+reconciled: false
+tags:
+  - Agriculture
+  - Crop Protection
+  - Rate Limiting
+description: >-
+  FMC Corporation does not publish any public developer API and therefore does
+  not publish API rate-limit documentation. Any data exchange with ag-retail
+  partners, seed companies, or Arc farm intelligence subscribers is governed
+  by the underlying commercial agreement, not by a published rate-limit policy.
+notes: >-
+  No public developer rate-limit documentation — placeholder only. Throughput
+  for any partner data exchange is set by the customer or channel agreement.
+sources:
+  - https://www.fmc.com
+  - https://ag.fmc.com
+responseCodes:
+  throttled: 429
+limits:
+  - name: Partner integration throttling
+    scope: account
+    metric: varies
+    limit: governed by partner / customer agreement; no public numeric ceiling
+policies:
+  - name: Contract-defined throttling
+    description: >-
+      Throughput for any data exchange (Arc farm intelligence, partner data
+      feeds, channel order systems) is established in the underlying customer
+      or channel agreement; coordinate volume changes with the FMC account team.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
