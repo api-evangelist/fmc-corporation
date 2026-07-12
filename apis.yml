@@ -151,10 +151,14 @@ apis:
       as an FMC-operated service rather than a public developer API.
 
 common:
+  - type: DomainSecurity
+    url: security/fmc-corporation-domain-security.yml
   - type: Website
     url: https://www.fmc.com
   - type: AgriculturePortal
     url: https://ag.fmc.com
+  - url: https://www.fmc.com/en/news-media/company-news
+    type: Blog
   - type: Innovation
     url: https://www.fmc.com/en/innovation
   - type: Sustainability
