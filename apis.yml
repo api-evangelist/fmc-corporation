@@ -40,7 +40,7 @@ description: >-
   FMC's pheromone-based crop protection portfolio (Sofero brand).
 created: '2026-05-23'
 modified: '2026-05-23'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: fmc-corporation:fmc-insecticides
     name: FMC Insecticides
