@@ -1,7 +1,7 @@
 aid: fmc-corporation
 url: >-
   https://raw.githubusercontent.com/api-evangelist/fmc-corporation/refs/heads/main/apis.yml
-name: FMC Corporation
+name: FMC
 type: Index
 deliveryModel:
   model: unknown
@@ -298,3 +298,4 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-legal-name: FMC Corporation
