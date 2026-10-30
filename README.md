@@ -1,4 +1,4 @@
-# FMC Corporation (fmc-corporation)
+# FMC
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,175 +66,106 @@
 
 FMC Corporation (NYSE: FMC) is a global agricultural sciences company headquartered in Philadelphia, Pennsylvania, with roots dating to 1883. FMC develops, manufactures, and sells crop protection chemistries (insecticides, herbicides, fungicides), biological solutions (biopesticides, biostimulants, biofertilizers, pheromones), seed treatments, and precision agriculture technology. Following the 2019 spin-off of Livent (lithium) and the 2021 divestiture of the Health & Nutrition business to DuPont/Eastman, FMC operates as a focused pure-play agricultural sciences company. The 2022 acquisition of Argentine biologicals firm BIOPHERO accelerated FMC's pheromone-based crop protection portfolio (Sofero brand).
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/fmc-corporation/refs/heads/main/apis.yml)
+**Areas:** Agriculture · Agricultural Sciences · Crop Protection · Plant Health · Insecticides · Herbicides · Fungicides · Biologicals · Pheromones · Precision Agriculture · Fortune 1000
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/agriculture?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## FMC on APIs.io
 
-## Tags:
+Everything profiled for FMC is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fmc-corporation/](https://apis.io/providers/fmc-corporation/)** — or go straight to one of the APIs or properties below.
 
- - Agriculture, Agricultural Sciences, Crop Protection, Plant Health, Insecticides, Herbicides, Fungicides, Biologicals, Pheromones, Precision Agriculture
+### APIs (7)
 
-## Timestamps
+- [FMC Insecticides](https://apis.io/apis/fmc-corporation/fmc-insecticides/) — FMC's insecticide and miticide portfolio includes diamide chemistry (Rynaxypyr, Cyazypyr active ingredients) marketed under brands such as Coragen,…
+- [FMC Herbicides](https://apis.io/apis/fmc-corporation/fmc-herbicides/) — FMC's herbicide portfolio spans preemergence and postemergence chemistries including sulfentrazone, clomazone, carfentrazone (Aim), and the newly launched…
+- [FMC Fungicides](https://apis.io/apis/fmc-corporation/fmc-fungicides/) — FMC's fungicide line includes fluindapyr-powered Adastrio and Onsuva brands plus Lucento and Xyway product families for control of soybean rust, cereal…
+- [FMC Biologicals](https://apis.io/apis/fmc-corporation/fmc-biologicals/) — FMC's "Biologicals by FMC" platform spans biopesticides (Quartzo, Presence, Zironar), biostimulants (Accudo, Seamac Rhizo), biofertilizers (Furagro Legend),…
+- [FMC Pheromone Solutions](https://apis.io/apis/fmc-corporation/fmc-pheromones/) — Sofero is FMC's row-crop pheromone platform built on technology from the 2022 acquisition of Argentina-based BIOPHERO. It uses sex-pheromone mating…
+- [FMC Seed Treatments](https://apis.io/apis/fmc-corporation/fmc-seed-treatments/) — FMC seed treatment products including Ethos, Lucento, and Quartzo provide seed-applied insect, disease, and nematode protection for corn, soybeans, cotton,…
+- [FMC Arc Farm Intelligence](https://apis.io/apis/fmc-corporation/fmc-arc-farm-intelligence/) — Arc farm intelligence is FMC's precision agriculture platform combining in-field sensors, predictive pest pressure modeling, and advisory tools to inform…
 
-- **Created:** 2026-05-23
-- **Modified:** 2026-05-23
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### FMC Insecticides
-FMC's insecticide and miticide portfolio includes diamide chemistry (Rynaxypyr, Cyazypyr active ingredients) marketed under brands such as Coragen, Prevathon, Altacor, Verimark, Vantacor, and Premio for control of lepidopteran and other arthropod pests across row crops, specialty crops, and vegetables.
+#### Security (1)
 
-**Human URL:** [https://ag.fmc.com](https://ag.fmc.com)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Fmc Corporation Domain Security](https://apis.io/security/fmc-corporation/fmc-corporation-domain-security/)
 
- - Agriculture, Crop Protection, Insecticides, Miticides
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://ag.fmc.com)
+- [Fmc Corporation Plans Pricing](https://apis.io/plans/fmc-corporation/fmc-corporation-plans-pricing/)
 
-### FMC Herbicides
-FMC's herbicide portfolio spans preemergence and postemergence chemistries including sulfentrazone, clomazone, carfentrazone (Aim), and the newly launched Isoflex active herbicide powered by Dodhylex technology for resistance management in cereals, soybeans, corn, and rice.
+#### Rate limits (1)
 
-**Human URL:** [https://ag.fmc.com](https://ag.fmc.com)
+Published request limits.
 
-#### Tags:
+- [Fmc Corporation Rate Limits](https://apis.io/rate-limits/fmc-corporation/fmc-corporation-rate-limits/)
 
- - Agriculture, Crop Protection, Herbicides, Weed Control
+#### FinOps (1)
 
-#### Properties
+What the API costs to run, by operation.
 
-- [Documentation](https://ag.fmc.com)
+- [Fmc Corporation Finops](https://apis.io/finops/fmc-corporation/fmc-corporation-finops/)
 
-### FMC Fungicides
-FMC's fungicide line includes fluindapyr-powered Adastrio and Onsuva brands plus Lucento and Xyway product families for control of soybean rust, cereal foliar diseases, and corn diseases including tar spot.
+## Where to find this API
 
-**Human URL:** [https://ag.fmc.com](https://ag.fmc.com)
-
-#### Tags:
-
- - Agriculture, Crop Protection, Fungicides, Disease Control
-
-#### Properties
-
-- [Documentation](https://ag.fmc.com)
-
-### FMC Biologicals
-FMC's "Biologicals by FMC" platform spans biopesticides (Quartzo, Presence, Zironar), biostimulants (Accudo, Seamac Rhizo), biofertilizers (Furagro Legend), and pheromone solutions (Sofero) — designed to complement synthetic chemistry rather than replace it.
-
-**Human URL:** [https://www.fmc.com/en/innovation/biologicals](https://www.fmc.com/en/innovation/biologicals)
-
-#### Tags:
-
- - Agriculture, Biologicals, Biopesticides, Biostimulants, Biofertilizers
-
-#### Properties
-
-- [Documentation](https://www.fmc.com/en/innovation/biologicals)
-
-### FMC Pheromone Solutions
-Sofero is FMC's row-crop pheromone platform built on technology from the 2022 acquisition of Argentina-based BIOPHERO. It uses sex-pheromone mating disruption for preventative pest management in row crops, extending pheromone-based control beyond traditional specialty-crop applications.
-
-**Human URL:** [https://www.fmc.com/en/innovation/biologicals](https://www.fmc.com/en/innovation/biologicals)
-
-#### Tags:
-
- - Agriculture, Biologicals, Pheromones, Mating Disruption, BIOPHERO
-
-#### Properties
-
-- [Documentation](https://www.fmc.com/en/innovation/biologicals)
-
-### FMC Seed Treatments
-FMC seed treatment products including Ethos, Lucento, and Quartzo provide seed-applied insect, disease, and nematode protection for corn, soybeans, cotton, and cereals.
-
-**Human URL:** [https://ag.fmc.com](https://ag.fmc.com)
-
-#### Tags:
-
- - Agriculture, Seed Treatment, Crop Protection
-
-#### Properties
-
-- [Documentation](https://ag.fmc.com)
-
-### FMC Arc Farm Intelligence
-Arc farm intelligence is FMC's precision agriculture platform combining in-field sensors, predictive pest pressure modeling, and advisory tools to inform spray timing decisions for growers and retailers. Delivered as an FMC-operated service rather than a public developer API.
-
-**Human URL:** [https://ag.fmc.com](https://ag.fmc.com)
-
-#### Tags:
-
- - Agriculture, Precision Agriculture, Digital Agriculture, Pest Monitoring, Predictive Modeling
-
-#### Properties
-
-- [Documentation](https://ag.fmc.com)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.fmc.com)
-- [AgriculturePortal](https://ag.fmc.com)
-- [Innovation](https://www.fmc.com/en/innovation)
-- [Sustainability](https://www.fmc.com/en/sustainability)
-- [InvestorRelations](https://investors.fmc.com)
-- [Newsroom](https://www.fmc.com/en/newsroom)
-- [SafetyDataSheets](https://www.fmc.com/en/safety-data-sheets)
-- [LinkedIn](https://www.linkedin.com/company/fmc-corporation)
-- [Twitter](https://twitter.com/FMCcorp)
-- [GitHub](https://github.com/FMCCorp)
-- [Ticker](https://www.nyse.com/quote/XNYS:FMC)
-- [PressRelease](https://www.fmc.com/en/newsroom)
-- [AnnualReport](https://investors.fmc.com)
-- [SustainabilityReport](https://www.fmc.com/en/sustainability)
+- [Blog](https://www.fmc.com/en/news-media/company-news)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Diamide Insecticide Chemistry | Rynaxypyr (chlorantraniliprole) and Cyazypyr (cyantraniliprole) diamide active ingredients marketed under Coragen, Prevathon, Altacor, Verimark, and Vantacor brands for control of lepidopteran pests. |
-| Isoflex Herbicide Platform | Isoflex active herbicide powered by Dodhylex technology — a new mode-of-action herbicide for resistance management in cereals and other row crops. |
-| Fluindapyr Fungicide Platform | Fluindapyr-based fungicides (Adastrio, Onsuva) provide control of soybean rust and other foliar diseases with extended residual activity. |
-| Biologicals by FMC | Integrated biologicals portfolio of biopesticides, biostimulants, biofertilizers, and pheromones designed to work alongside synthetic chemistry for sustainable crop protection. |
-| Sofero Pheromone Mating Disruption | Row-crop pheromone solution from the 2022 BIOPHERO acquisition, applying sex-pheromone mating disruption to broad-acre pest management. |
-| Arc Farm Intelligence | Precision agriculture platform combining field sensors, predictive pest pressure modeling, and spray-timing advisories for growers and ag retailers. |
-| Seed Treatment Portfolio | Seed-applied insecticide, fungicide, and nematicide products including Ethos, Lucento, and Quartzo for corn, soybeans, cotton, and cereals. |
+**Kin Score 10.6** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 63.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 7.9 |
 
-| Name | Description |
-|------|-------------|
-| Row Crop Insect Control | Growers protecting corn, soybeans, cotton, and rice from caterpillar and beetle pests using FMC diamide insecticides. |
-| Herbicide Resistance Management | Cereal and row-crop growers rotating Isoflex (Dodhylex) into spray programs to counter glyphosate- and ALS-resistant weed populations. |
-| Soybean Disease Control | Soybean producers in Brazil, Argentina, and North America applying fluindapyr fungicides for Asian soybean rust and other foliar diseases. |
-| Integrated Biologicals Programs | Growers integrating FMC biopesticides, biostimulants, and biofertilizers alongside synthetic chemistry to meet sustainability and residue targets. |
-| Pheromone-Based Mating Disruption | Row-crop and specialty-crop growers deploying Sofero pheromones for preventative pest control with low non-target impact. |
-| Precision Spray Decision Support | Ag retailers and growers using Arc farm intelligence sensor and modeling data to time insecticide and fungicide applications. |
-| Seed-Applied Protection | Seed companies and growers using FMC seed treatments to protect emerging seedlings from early-season pests and diseases. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Ag Retailers and Distributors | FMC distributes through agricultural retail and distribution networks including Nutrien Ag Solutions, Helena, Wilbur-Ellis, GROWMARK, and regional cooperatives. |
-| Seed Companies | FMC seed treatment products are applied by major seed companies including Corteva (Pioneer), Bayer, Syngenta, and regional seed brands. |
-| Regulatory Agencies | Active-ingredient registrations and label maintenance with US EPA, EU EFSA / national regulators, Brazilian MAPA, ANVISA, and crop protection regulators worldwide. |
-| Research Partnerships | Collaborations with land-grant universities, CGIAR centers, and private R&D firms on new active-ingredient discovery and product stewardship. |
-| FMC Ventures | Corporate venture arm investing in ag-tech, biologicals, digital agriculture, and precision spray startups complementary to FMC's core portfolio. |
+**Regulatory alignment 4.7** — Health
 
-## Pipeline Artifacts
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fmc-corporation/](https://apis.io/providers/fmc-corporation/).
 
-- [Plans & Pricing](plans/fmc-corporation-plans-pricing.yml) — structural placeholder; no public developer pricing
-- [Rate Limits](rate-limits/fmc-corporation-rate-limits.yml) — structural placeholder; no published API rate limits
-- [FinOps](finops/fmc-corporation-finops.yml) — structural placeholder; costs flow through ag-product channels and service contracts
+## How this profile is made
 
-## Notes
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-FMC publishes no public developer APIs. The FMCCorp GitHub organization exists but has zero public repositories. There is no developer portal, no OpenAPI documentation, and no public Arc farm intelligence API. Data integrations with ag retailers, seed companies, and Arc subscribers are governed by commercial agreements rather than a public developer surface.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for FMC: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Maintainers
+## Open an issue
 
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fmc-corporation/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
